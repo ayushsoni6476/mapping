@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { ProductConsumer } from "../ProductProvider";
 export default class Product extends Component {
   render() {
     const { id, name } = this.props.product;

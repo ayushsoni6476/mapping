@@ -2,13 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter as Router } from "react-router-dom";
 import App from "./App";
-import { ProductProvider } from "./ProductProvider";
-//const rootElement = document.getElementById("root");
 ReactDOM.render(
-  <ProductProvider>
-    <Router>
-      <App />
-    </Router>
-  </ProductProvider>,
+  <Router>
+    <App />
+  </Router>,
   document.getElementById("root")
 );
